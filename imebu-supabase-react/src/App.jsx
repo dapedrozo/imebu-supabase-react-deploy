@@ -9,9 +9,11 @@ import NotFound from "./components/layouts/NotFound";
 
 const IndexPage = lazy(() => import('./pages/IndexPage'));
 
+/*
 const EmpleoJovenDashboard = lazy(() => import('./pages/EmpleoJovenDashboard'));
 const EmpleoJovenPostulaEmpresa = lazy(() => import('./pages/EmpleoJovenPostulaEmpresa'));
 const EmpleoJovenPostularEmpleados = lazy(() => import('./pages/EmpleoJovenPostularEmpleados'));
+*/
 
 const ObservatorioPage = lazy(() => import('./pages/ObservatorioPage'));
 const IndicadorEmpresarial = lazy(() => import('./components/ObservatioPage/indicadores/IndicadorEmpresarial'));
@@ -33,9 +35,12 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexPage/>} />
 
+{/* 
           <Route path="/empleo-joven" element={<EmpleoJovenDashboard/>} />
           <Route path="/empleo-joven/postular-empresa" element={<EmpleoJovenPostulaEmpresa/>} />
           <Route path="/empleo-joven/postular-empleados" element={<EmpleoJovenPostularEmpleados/>} />
+*/}
+
 
           <Route path="/banca" element={<BancaPage/>} />
 
