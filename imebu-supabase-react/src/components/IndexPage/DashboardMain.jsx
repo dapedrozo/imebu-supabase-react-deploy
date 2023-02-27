@@ -30,12 +30,14 @@ function DashboardMain() {
     cardProgramas.push(...newCardProgramas)
   }else{
     const newCardProgramas=[
+      /*
       {
         imageCard:"https://www.bucaramanga.gov.co/wp-content/uploads/2022/02/BANNER_JOVENES2560x900.png",
         title:"Empleo Joven",
         description: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
         url:"/empleo-joven"
       },
+      */
       {
         imageCard:"https://www.bucaramanga.gov.co/wp-content/uploads/2022/02/BANNER_JOVENES2560x900.png",
         title:"Empleo",

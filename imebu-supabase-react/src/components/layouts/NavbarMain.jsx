@@ -29,7 +29,13 @@ function NavbarMain() {
               }
               <Nav.Link href="/observatorio" className="text-light">Observatorio</Nav.Link>
               <Nav.Link href="/" className="text-light">Inicio</Nav.Link>
+              {
+                currentNameUser==="" ? (
+                  <div></div>
+                ) : (
               <Nav.Link onClick={()=>signOutUser()} className="text-light">Salir</Nav.Link>
+                )
+              }
             </Nav>
         </Navbar.Collapse>
       </Container>
